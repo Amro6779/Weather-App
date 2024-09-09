@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/Weathr_Icon.png" type="image/x-icon">
+    <title>Weather</title>
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/Media.css">
+</head>
+<body>
+  
+    <nav id="NavBar" class="navbar navbar-expand-lg py-4">
+        <div class="container pb-2 my-3">
+            <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+                <img src="images/logo.png" class="me-3" alt="logo">
+
+                <div class="brand-dsc d-flex flex-column">
+                    <p class="m-0 text-white">Weather</p>
+                    <span>tagline goes here</span>
+                </div>
+            </a>
+            <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-lg-0 mt-sm-3 text-center" id="navbarNav">
+                <ul class="navbar-nav ms-auto boe ">
+                    <li class="nav-item mt-lg-0 mt-sm-2 px-1">
+                        <a class="nav-link text-white fs-6 py-0 px-4 active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mt-lg-0 mt-sm-2 px-1">
+                        <a class="nav-link text-white fs-6 py-0 px-4" href="#">News</a>
+                    </li>
+                    <li class="nav-item mt-lg-0 mt-sm-2 px-1">
+                        <a class="nav-link text-white fs-6 py-0 px-4" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item mt-lg-0 mt-sm-2 px-1">
+                        <a class="nav-link text-white fs-6 py-0 px-4" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item mt-lg-0 mt-sm-2 px-1">
+                        <a class="nav-link text-white fs-6 py-0 px-4" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="home">
+        <div class="bg-img overflow-auto">
+            <div class="container container-2 py-5 my-4">
+                <div class="search">
+                    <input type="text" placeholder="Find your location..."  class="form-control border-0 rounded-pill">
+                    <button type="submit" class="border-0 rounded-pill text-white">Find</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <div class="row mx-2">
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-2">
+        <div class="container py-5 d-lg-flex flex-wrap justify-content-between">
+            <div class="subscribe w-60">
+                <input type="text" placeholder="Enter Your Email To Subscribe..."  class="form-control border-0 rounded-pill">
+                <button type="submit" class="border-0 rounded-pill text-white px-4">Subscribe</button>
+            </div>
+            <div class="icons pt-lg-0 pt-4">
+                <span class="fa-stack fa-lg">
+                    <div class="circle rounded-circle">
+                        <i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i>
+                    </div>
+                </span>
+                <span class="fa-stack fa-lg">
+                    <div class="circle rounded-circle">
+                        <i class="fa-brands fa-discord fa-stack-1x fa-inverse"></i>
+                    </div>
+                </span>
+                <span class="fa-stack fa-lg">
+                    <div class="circle rounded-circle">
+                        <i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
+                    </div>
+                </span>
+                <span class="fa-stack fa-lg">
+                    <div class="circle rounded-circle">
+                        <i class="fa-brands fa-github fa-stack-1x fa-inverse"></i>
+                    </div>
+                </span>
+            </div>
+            <p class="text-gray pt-4 ps-2 w-100">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>

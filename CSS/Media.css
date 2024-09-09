@@ -1,0 +1,27 @@
+@media screen and (min-width:992px) {
+    .container {
+        width: 77%;
+    }
+
+    .w-60 {
+        width: 60%;
+    }
+
+    .radius-bottom-left {
+        border-bottom-left-radius: 10px;
+    }
+
+    .radius-top-right {
+        border-top-right-radius: 10px;
+    }
+
+    .radius-bottom {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .radius-top {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+}

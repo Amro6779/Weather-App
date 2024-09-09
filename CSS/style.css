@@ -1,0 +1,172 @@
+::-webkit-scrollbar {
+    width: 8px;   
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1e202b;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #009ad8;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #006187;
+}
+
+.radius-bottom-left {
+    border-bottom-left-radius: 0px;
+}
+
+.radius-top-right {
+    border-top-right-radius: 0px;
+}
+
+.radius-bottom {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.radius-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.w-60 {
+    width: 100%;
+}
+
+.fs-70 {
+    font-size: 70px;
+}
+
+.text-gray {
+    color: rgb(174, 174, 174);
+}
+
+.container {
+    width: 100%;
+}
+
+::placeholder {
+    color: gray !important;
+}
+
+#NavBar , body{
+    background-color: #1e202b;
+}
+
+.navbar-nav .nav-link.active{
+    color: #009ad8 !important;
+    border: #009ad8 2px solid;
+    border-radius: 50px;
+}
+
+.navbar-brand .brand-dsc p {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.navbar-brand .brand-dsc span {
+    color: gray;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.5s;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #009ad8 !important;
+    border: #009ad8 2px solid;
+    border-radius: 50px;
+}
+
+.home .bg-img {
+    background-image: url(../images/bg-bridge.jpg);
+    height: 350px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home .bg-img .container .search ,
+footer .container .subscribe {
+    position: relative;
+}
+
+.home .bg-img .container .search input ,
+footer .container .subscribe input {
+    background-color: #1e202b;
+    height: 55px;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.home .bg-img .container .search input:focus ,
+footer .container .subscribe input:focus {
+    box-shadow: none;
+    border-color: #1e202b;
+    color: aliceblue;
+    padding-left: 30px;
+}
+
+.home .bg-img .container .search button ,
+footer .container .subscribe button {
+    height: 45px;
+    padding-inline: 40px;
+    background-color: #009ad8;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.main .container .row {
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+.main .container .row .light {
+    background-color: rgb(45, 48, 61);
+}
+
+.main .container .row .dark {
+    background-color: rgb(34, 37, 48);
+}
+
+.main .container .row .content-1{
+    background-color: rgb(50, 53, 68) !important;
+    height: 91%;
+}
+
+.main .container .row .content-2{
+    background-color: rgb(38, 41, 54) !important;
+    height: 91%;
+}
+
+footer {
+    background-color: rgb(38, 41, 54);
+}
+
+footer .container .icons .fa-brands {
+    color: #009ad8;
+    transition: all 0.5s;
+}
+
+footer .container .icons .fa-brands:hover {
+    color: white;
+}
+
+footer .container .icons .circle {
+    background-color: #1e202b;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    transition: all 0.5s;
+}
+
+footer .container .icons .circle:hover {
+    background-color: #009ad8;
+}
